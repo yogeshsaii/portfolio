@@ -1,0 +1,87 @@
+#skills {
+    padding: 2rem;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    height: 710px;
+  }
+  
+  #skills h2 {
+    border-bottom: 2px solid #282c34;
+    padding-bottom: 0.5em;
+  }
+  
+  .hologram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height:max-content;
+  }
+    
+  .rover {
+    position: absolute;
+    top:78%;
+    bottom: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: auto;
+  }
+  .rover2{
+    position: absolute;
+    top:62%;
+    bottom: 0;
+    left: 75%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: auto;
+  }
+  
+  .tech, .non-tech {
+    width: 90%;
+    height: max-content;
+    margin: 0 2%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.8rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  
+  .skills-card {
+    padding: 2rem;
+    background-color: #141313;
+    border: 1px solid #282c34;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .skills-card h3 {
+    color: #00ffff;
+    font-size: 22px;
+    font-weight: 200;
+  }
+  
+  .skills-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-card li {
+    margin: 0.5rem 0;
+    font-size: 16px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+  }
+  
+  .icons img {
+    width: 40px;
+    height: auto;
+    filter: drop-shadow(0 0 5px #00ffff);
+  }
+  
